@@ -1,0 +1,1108 @@
+{
+  "generated_by_isoloom": "from isoloom.yml; don't edit: change the spec and run `isoloom generate` (`isoloom check` fails when this file is out of date)",
+  "resolved_version": 1,
+  "name": "grpc-goat",
+  "instance": null,
+  "inputs": [],
+  "networks": {
+    "lab": {
+      "cidr": "10.60.34.0/24",
+      "docker_cidr": "10.60.34.0/24",
+      "internet": false,
+      "gateway": null,
+      "gateway_address": "10.60.34.1",
+      "router": null,
+      "controller": "10.60.34.253"
+    }
+  },
+  "reach": [],
+  "machines": {
+    "grpc-001": {
+      "access": false,
+      "supplied": false,
+      "shapes": [
+        "docker"
+      ],
+      "arch": "amd64",
+      "os": null,
+      "windows": false,
+      "addresses": {
+        "lab": "10.60.34.10"
+      },
+      "docker_addresses": {
+        "lab": "10.60.34.10"
+      },
+      "services": [
+        {
+          "port": 8001,
+          "name": "grpc",
+          "http": false,
+          "publish": 8001
+        }
+      ],
+      "depends_on": [],
+      "inputs": [],
+      "volumes": {},
+      "resources": {
+        "cpus": 1,
+        "memory_mb": 256,
+        "disk_gb": 20
+      },
+      "gateway_of": [],
+      "routes": [],
+      "default_gateway": null,
+      "offline": true
+    },
+    "grpc-002": {
+      "access": false,
+      "supplied": false,
+      "shapes": [
+        "docker"
+      ],
+      "arch": "amd64",
+      "os": null,
+      "windows": false,
+      "addresses": {
+        "lab": "10.60.34.11"
+      },
+      "docker_addresses": {
+        "lab": "10.60.34.11"
+      },
+      "services": [
+        {
+          "port": 8002,
+          "name": "grpc",
+          "http": false,
+          "publish": 8002
+        }
+      ],
+      "depends_on": [],
+      "inputs": [],
+      "volumes": {},
+      "resources": {
+        "cpus": 1,
+        "memory_mb": 256,
+        "disk_gb": 20
+      },
+      "gateway_of": [],
+      "routes": [],
+      "default_gateway": null,
+      "offline": true
+    },
+    "grpc-003": {
+      "access": false,
+      "supplied": false,
+      "shapes": [
+        "docker"
+      ],
+      "arch": "amd64",
+      "os": null,
+      "windows": false,
+      "addresses": {
+        "lab": "10.60.34.12"
+      },
+      "docker_addresses": {
+        "lab": "10.60.34.12"
+      },
+      "services": [
+        {
+          "port": 8003,
+          "name": "grpc",
+          "http": false,
+          "publish": 8003
+        }
+      ],
+      "depends_on": [],
+      "inputs": [],
+      "volumes": {},
+      "resources": {
+        "cpus": 1,
+        "memory_mb": 256,
+        "disk_gb": 20
+      },
+      "gateway_of": [],
+      "routes": [],
+      "default_gateway": null,
+      "offline": true
+    },
+    "grpc-004": {
+      "access": false,
+      "supplied": false,
+      "shapes": [
+        "docker"
+      ],
+      "arch": "amd64",
+      "os": null,
+      "windows": false,
+      "addresses": {
+        "lab": "10.60.34.13"
+      },
+      "docker_addresses": {
+        "lab": "10.60.34.13"
+      },
+      "services": [
+        {
+          "port": 8004,
+          "name": "grpc",
+          "http": false,
+          "publish": 8004
+        }
+      ],
+      "depends_on": [],
+      "inputs": [],
+      "volumes": {},
+      "resources": {
+        "cpus": 1,
+        "memory_mb": 256,
+        "disk_gb": 20
+      },
+      "gateway_of": [],
+      "routes": [],
+      "default_gateway": null,
+      "offline": true
+    },
+    "grpc-005": {
+      "access": false,
+      "supplied": false,
+      "shapes": [
+        "docker"
+      ],
+      "arch": "amd64",
+      "os": null,
+      "windows": false,
+      "addresses": {
+        "lab": "10.60.34.14"
+      },
+      "docker_addresses": {
+        "lab": "10.60.34.14"
+      },
+      "services": [
+        {
+          "port": 8005,
+          "name": "grpc",
+          "http": false,
+          "publish": 8005
+        }
+      ],
+      "depends_on": [],
+      "inputs": [],
+      "volumes": {},
+      "resources": {
+        "cpus": 1,
+        "memory_mb": 256,
+        "disk_gb": 20
+      },
+      "gateway_of": [],
+      "routes": [],
+      "default_gateway": null,
+      "offline": true
+    },
+    "grpc-006": {
+      "access": false,
+      "supplied": false,
+      "shapes": [
+        "docker"
+      ],
+      "arch": "amd64",
+      "os": null,
+      "windows": false,
+      "addresses": {
+        "lab": "10.60.34.15"
+      },
+      "docker_addresses": {
+        "lab": "10.60.34.15"
+      },
+      "services": [],
+      "depends_on": [],
+      "inputs": [],
+      "volumes": {},
+      "resources": {
+        "cpus": 1,
+        "memory_mb": 256,
+        "disk_gb": 20
+      },
+      "gateway_of": [],
+      "routes": [],
+      "default_gateway": null,
+      "offline": true
+    },
+    "grpc-007": {
+      "access": false,
+      "supplied": false,
+      "shapes": [
+        "docker"
+      ],
+      "arch": "amd64",
+      "os": null,
+      "windows": false,
+      "addresses": {
+        "lab": "10.60.34.16"
+      },
+      "docker_addresses": {
+        "lab": "10.60.34.16"
+      },
+      "services": [
+        {
+          "port": 8007,
+          "name": "grpc",
+          "http": false,
+          "publish": 8007
+        }
+      ],
+      "depends_on": [],
+      "inputs": [],
+      "volumes": {},
+      "resources": {
+        "cpus": 1,
+        "memory_mb": 256,
+        "disk_gb": 20
+      },
+      "gateway_of": [],
+      "routes": [],
+      "default_gateway": null,
+      "offline": true
+    },
+    "grpc-008": {
+      "access": false,
+      "supplied": false,
+      "shapes": [
+        "docker"
+      ],
+      "arch": "amd64",
+      "os": null,
+      "windows": false,
+      "addresses": {
+        "lab": "10.60.34.17"
+      },
+      "docker_addresses": {
+        "lab": "10.60.34.17"
+      },
+      "services": [
+        {
+          "port": 8008,
+          "name": "grpc",
+          "http": false,
+          "publish": 8008
+        }
+      ],
+      "depends_on": [],
+      "inputs": [],
+      "volumes": {},
+      "resources": {
+        "cpus": 1,
+        "memory_mb": 256,
+        "disk_gb": 20
+      },
+      "gateway_of": [],
+      "routes": [],
+      "default_gateway": null,
+      "offline": true
+    },
+    "grpc-009": {
+      "access": false,
+      "supplied": false,
+      "shapes": [
+        "docker"
+      ],
+      "arch": "amd64",
+      "os": null,
+      "windows": false,
+      "addresses": {
+        "lab": "10.60.34.18"
+      },
+      "docker_addresses": {
+        "lab": "10.60.34.18"
+      },
+      "services": [
+        {
+          "port": 8009,
+          "name": "grpc",
+          "http": false,
+          "publish": 8009
+        }
+      ],
+      "depends_on": [],
+      "inputs": [],
+      "volumes": {},
+      "resources": {
+        "cpus": 1,
+        "memory_mb": 256,
+        "disk_gb": 20
+      },
+      "gateway_of": [],
+      "routes": [],
+      "default_gateway": null,
+      "offline": true
+    }
+  },
+  "start_order": [
+    "grpc-001",
+    "grpc-002",
+    "grpc-003",
+    "grpc-004",
+    "grpc-005",
+    "grpc-006",
+    "grpc-007",
+    "grpc-008",
+    "grpc-009"
+  ],
+  "clones": {},
+  "tools": {},
+  "groups": {},
+  "router": null,
+  "controller": {
+    "addresses": {
+      "lab": "10.60.34.253"
+    }
+  },
+  "published": [
+    {
+      "machine": "grpc-001",
+      "port": 8001,
+      "host_port": 8001
+    },
+    {
+      "machine": "grpc-002",
+      "port": 8002,
+      "host_port": 8002
+    },
+    {
+      "machine": "grpc-003",
+      "port": 8003,
+      "host_port": 8003
+    },
+    {
+      "machine": "grpc-004",
+      "port": 8004,
+      "host_port": 8004
+    },
+    {
+      "machine": "grpc-005",
+      "port": 8005,
+      "host_port": 8005
+    },
+    {
+      "machine": "grpc-007",
+      "port": 8007,
+      "host_port": 8007
+    },
+    {
+      "machine": "grpc-008",
+      "port": 8008,
+      "host_port": 8008
+    },
+    {
+      "machine": "grpc-009",
+      "port": 8009,
+      "host_port": 8009
+    }
+  ],
+  "targets": {
+    "possible": [
+      "docker",
+      "hosted",
+      "docker-vm",
+      "cloud-docker",
+      "kubernetes"
+    ],
+    "generated": [
+      "docker",
+      "hosted",
+      "docker-vm",
+      "cloud-docker",
+      "kubernetes"
+    ],
+    "refused": {},
+    "not_possible": {
+      "hybrid": "only when some machines are containers and others are VMs",
+      "vagrant": "needs `vm:` on grpc-001, grpc-002, grpc-003, grpc-004, grpc-005, grpc-006, grpc-007, grpc-008, grpc-009",
+      "proxmox": "needs `vm:` on grpc-001, grpc-002, grpc-003, grpc-004, grpc-005, grpc-006, grpc-007, grpc-008, grpc-009",
+      "cloud-vm": "needs `vm:` on grpc-001, grpc-002, grpc-003, grpc-004, grpc-005, grpc-006, grpc-007, grpc-008, grpc-009",
+      "external": "needs `external:` on grpc-001, grpc-002, grpc-003, grpc-004, grpc-005, grpc-006, grpc-007, grpc-008, grpc-009"
+    }
+  },
+  "checks": {
+    "default_position": "networks",
+    "positions": [
+      {
+        "position": "networks",
+        "machine": null,
+        "runner": "isoloom-check",
+        "checks": [
+          {
+            "name": "lab 002 answers a gRPC call (auth.AuthService/Login)",
+            "derived": false,
+            "kind": "script",
+            "target": "checks/grpc-login.sh",
+            "expect": "",
+            "wait": 120
+          },
+          {
+            "name": "lab 003 answers over TLS",
+            "derived": false,
+            "kind": "http",
+            "target": "https://grpc-003:8003/",
+            "expect": "any",
+            "wait": 30
+          },
+          {
+            "name": "lab 007 (SQL injection) listens",
+            "derived": false,
+            "kind": "tcp",
+            "target": "grpc-007:8007",
+            "expect": "open",
+            "wait": 30
+          }
+        ]
+      },
+      {
+        "position": "grpc-001",
+        "machine": "grpc-001",
+        "runner": "isoloom-check-grpc-001",
+        "checks": [
+          {
+            "name": "grpc-002:8002 from grpc-001",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.11:8002",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-003:8003 from grpc-001",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.12:8003",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-004:8004 from grpc-001",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.13:8004",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-005:8005 from grpc-001",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.14:8005",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-007:8007 from grpc-001",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.16:8007",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-008:8008 from grpc-001",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.17:8008",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-009:8009 from grpc-001",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.18:8009",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "no internet from grpc-001",
+            "derived": true,
+            "kind": "http",
+            "target": "http://1.1.1.1/",
+            "expect": "blocked",
+            "wait": 0
+          }
+        ]
+      },
+      {
+        "position": "grpc-002",
+        "machine": "grpc-002",
+        "runner": "isoloom-check-grpc-002",
+        "checks": [
+          {
+            "name": "grpc-001:8001 from grpc-002",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.10:8001",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-003:8003 from grpc-002",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.12:8003",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-004:8004 from grpc-002",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.13:8004",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-005:8005 from grpc-002",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.14:8005",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-007:8007 from grpc-002",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.16:8007",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-008:8008 from grpc-002",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.17:8008",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-009:8009 from grpc-002",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.18:8009",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "no internet from grpc-002",
+            "derived": true,
+            "kind": "http",
+            "target": "http://1.1.1.1/",
+            "expect": "blocked",
+            "wait": 0
+          }
+        ]
+      },
+      {
+        "position": "grpc-003",
+        "machine": "grpc-003",
+        "runner": "isoloom-check-grpc-003",
+        "checks": [
+          {
+            "name": "grpc-001:8001 from grpc-003",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.10:8001",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-002:8002 from grpc-003",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.11:8002",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-004:8004 from grpc-003",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.13:8004",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-005:8005 from grpc-003",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.14:8005",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-007:8007 from grpc-003",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.16:8007",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-008:8008 from grpc-003",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.17:8008",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-009:8009 from grpc-003",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.18:8009",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "no internet from grpc-003",
+            "derived": true,
+            "kind": "http",
+            "target": "http://1.1.1.1/",
+            "expect": "blocked",
+            "wait": 0
+          }
+        ]
+      },
+      {
+        "position": "grpc-004",
+        "machine": "grpc-004",
+        "runner": "isoloom-check-grpc-004",
+        "checks": [
+          {
+            "name": "grpc-001:8001 from grpc-004",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.10:8001",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-002:8002 from grpc-004",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.11:8002",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-003:8003 from grpc-004",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.12:8003",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-005:8005 from grpc-004",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.14:8005",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-007:8007 from grpc-004",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.16:8007",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-008:8008 from grpc-004",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.17:8008",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-009:8009 from grpc-004",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.18:8009",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "no internet from grpc-004",
+            "derived": true,
+            "kind": "http",
+            "target": "http://1.1.1.1/",
+            "expect": "blocked",
+            "wait": 0
+          }
+        ]
+      },
+      {
+        "position": "grpc-005",
+        "machine": "grpc-005",
+        "runner": "isoloom-check-grpc-005",
+        "checks": [
+          {
+            "name": "grpc-001:8001 from grpc-005",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.10:8001",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-002:8002 from grpc-005",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.11:8002",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-003:8003 from grpc-005",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.12:8003",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-004:8004 from grpc-005",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.13:8004",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-007:8007 from grpc-005",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.16:8007",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-008:8008 from grpc-005",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.17:8008",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-009:8009 from grpc-005",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.18:8009",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "no internet from grpc-005",
+            "derived": true,
+            "kind": "http",
+            "target": "http://1.1.1.1/",
+            "expect": "blocked",
+            "wait": 0
+          }
+        ]
+      },
+      {
+        "position": "grpc-006",
+        "machine": "grpc-006",
+        "runner": "isoloom-check-grpc-006",
+        "checks": [
+          {
+            "name": "grpc-001:8001 from grpc-006",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.10:8001",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-002:8002 from grpc-006",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.11:8002",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-003:8003 from grpc-006",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.12:8003",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-004:8004 from grpc-006",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.13:8004",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-005:8005 from grpc-006",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.14:8005",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-007:8007 from grpc-006",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.16:8007",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-008:8008 from grpc-006",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.17:8008",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-009:8009 from grpc-006",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.18:8009",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "no internet from grpc-006",
+            "derived": true,
+            "kind": "http",
+            "target": "http://1.1.1.1/",
+            "expect": "blocked",
+            "wait": 0
+          }
+        ]
+      },
+      {
+        "position": "grpc-007",
+        "machine": "grpc-007",
+        "runner": "isoloom-check-grpc-007",
+        "checks": [
+          {
+            "name": "grpc-001:8001 from grpc-007",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.10:8001",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-002:8002 from grpc-007",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.11:8002",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-003:8003 from grpc-007",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.12:8003",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-004:8004 from grpc-007",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.13:8004",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-005:8005 from grpc-007",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.14:8005",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-008:8008 from grpc-007",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.17:8008",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-009:8009 from grpc-007",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.18:8009",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "no internet from grpc-007",
+            "derived": true,
+            "kind": "http",
+            "target": "http://1.1.1.1/",
+            "expect": "blocked",
+            "wait": 0
+          }
+        ]
+      },
+      {
+        "position": "grpc-008",
+        "machine": "grpc-008",
+        "runner": "isoloom-check-grpc-008",
+        "checks": [
+          {
+            "name": "grpc-001:8001 from grpc-008",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.10:8001",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-002:8002 from grpc-008",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.11:8002",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-003:8003 from grpc-008",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.12:8003",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-004:8004 from grpc-008",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.13:8004",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-005:8005 from grpc-008",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.14:8005",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-007:8007 from grpc-008",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.16:8007",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-009:8009 from grpc-008",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.18:8009",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "no internet from grpc-008",
+            "derived": true,
+            "kind": "http",
+            "target": "http://1.1.1.1/",
+            "expect": "blocked",
+            "wait": 0
+          }
+        ]
+      },
+      {
+        "position": "grpc-009",
+        "machine": "grpc-009",
+        "runner": "isoloom-check-grpc-009",
+        "checks": [
+          {
+            "name": "grpc-001:8001 from grpc-009",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.10:8001",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-002:8002 from grpc-009",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.11:8002",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-003:8003 from grpc-009",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.12:8003",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-004:8004 from grpc-009",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.13:8004",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-005:8005 from grpc-009",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.14:8005",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-007:8007 from grpc-009",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.16:8007",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "grpc-008:8008 from grpc-009",
+            "derived": true,
+            "kind": "tcp",
+            "target": "10.60.34.17:8008",
+            "expect": "open",
+            "wait": 30
+          },
+          {
+            "name": "no internet from grpc-009",
+            "derived": true,
+            "kind": "http",
+            "target": "http://1.1.1.1/",
+            "expect": "blocked",
+            "wait": 0
+          }
+        ]
+      }
+    ]
+  },
+  "message": "gRPC Goat: nine labs, one gRPC service each, published on localhost:8001 to 8009 (8006 has no\nport: lab 006 is a Unix socket inside its machine, reach it with `isoloom connect grpc-006`).\nStart with lab 001: list the services with server reflection (grpcurl -plaintext\nlocalhost:8001 list). The .proto files for the other labs are in app/protos/.\n"
+}

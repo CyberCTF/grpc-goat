@@ -1,0 +1,9 @@
+{
+  "title": "gRPC Goat",
+  "description": "gRPC Goat: nine vulnerable gRPC services, one flag each: server reflection, plaintext credentials, insecure TLS, arbitrary and subject-checked mTLS, a world-writable Unix socket, SQL injection, command injection and SSRF.",
+  "question": "Capture the flag of each of the nine gRPC Goat labs.",
+  "category": "WEB",
+  "difficulty": 2,
+  "evidence_kind": "SECRET",
+  "capabilities": ["grpc-testing", "tls-misconfiguration", "sql-injection", "command-injection", "ssrf", "unix-socket-abuse"]
+}
