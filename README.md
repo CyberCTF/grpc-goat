@@ -25,7 +25,7 @@ Each port is published on the same number on localhost.
 
 ```bash
 isoloom generate
-isoloom up docker
+isoloom run docker
 ```
 
 Then start with `grpcurl -plaintext localhost:8001 list`. The `.proto` files for labs 002 to 009
