@@ -418,7 +418,8 @@
       "vagrant": "needs `vm:` on grpc-001, grpc-002, grpc-003, grpc-004, grpc-005, grpc-006, grpc-007, grpc-008, grpc-009",
       "proxmox": "needs `vm:` on grpc-001, grpc-002, grpc-003, grpc-004, grpc-005, grpc-006, grpc-007, grpc-008, grpc-009",
       "cloud-vm": "needs `vm:` on grpc-001, grpc-002, grpc-003, grpc-004, grpc-005, grpc-006, grpc-007, grpc-008, grpc-009",
-      "external": "needs `external:` on grpc-001, grpc-002, grpc-003, grpc-004, grpc-005, grpc-006, grpc-007, grpc-008, grpc-009"
+      "external": "needs `external:` on grpc-001, grpc-002, grpc-003, grpc-004, grpc-005, grpc-006, grpc-007, grpc-008, grpc-009",
+      "cloud-services": "left out by `targets:`"
     }
   },
   "checks": {
