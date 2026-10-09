@@ -4,6 +4,5 @@
   "question": "Capture the flag of each of the nine gRPC Goat labs.",
   "category": "WEB",
   "difficulty": 2,
-  "evidence_kind": "SECRET",
-  "capabilities": ["grpc-testing", "tls-misconfiguration", "sql-injection", "command-injection", "ssrf", "unix-socket-abuse"]
+  "evidence_kind": "SECRET"
 }
